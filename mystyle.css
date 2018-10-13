@@ -1,0 +1,224 @@
+@import url("reset.css");
+body {background-image: url(background1.jpg);
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  background-attachment: fixed;
+	  background-position: center;}
+
+#container {width: 860px;
+			margin: auto;}
+
+#header{text-align: center;}
+
+#menu {margin: 20px;
+	   text-align: center;}
+
+#content {min-height:200px;
+		  padding: 0px;
+		  position: relative;
+		  overflow: auto;
+		  }
+
+#nav{width: 180px;
+	height: auto;
+	 float: left;
+	 background: white;
+	 border-style: outset;
+	 border-width: 5px;
+	 border-radius: 25px;
+	 padding: 5px;}
+
+#navpanel{background: #f00e19;
+		  text-align: center;
+		  color: #ffffff;
+		  margin: auto;
+		  padding: 1px;
+		  border-radius: 25px;}
+
+#main{width: 600px;
+	  float: right;
+	  min-height:100px;
+	  background: white;
+	  border-style: outset;
+	  border-width: 5px;
+	  border-radius: 25px;
+	  padding: 5px;}
+
+.rec {background: white;
+	  width: 830px;
+	  margin: auto;
+	  min-height: 20px;
+	  padding: 10px;
+	  border-radius: 25px;
+	  border-width: 5px;
+	  border-style: outset;
+	  position: relative;
+	  overflow: auto;}
+
+.rec2 {background: white;
+	  width: 400px;
+	  float: left;
+	  min-height: 20px;
+	  padding: 10px;
+	  border-radius: 25px;
+	  border-width: 5px;
+	  border-style: outset;
+	  position: relative;
+	  overflow: auto;}
+
+#chefcontainer {margin:auto;
+				padding: 10px;
+				border-style: outset;
+				border-width: 5px;
+				border-radius:25px;
+				min-height: 20px;
+				text-align:center;
+				max-width:830px;}
+
+#picturerec{width: 830px;
+			margin: auto;
+			border-radius: 25px;
+			margin:0px;
+			padding:0px;
+			height: 400px;}
+
+
+#footer{clear: both;
+
+		margin: 10px;
+		padding: 10px;
+		}
+
+#picture{margin: 5px 20px;
+		 height: 300px;
+		 width: 500px;}
+
+#floating {height: 100px;
+			position: absolute;
+			bottom:0px;
+			right:0px;
+			border-radius:25px;}
+
+#mainpic {float: right;
+		  height: 200px;
+		  margin: 5px;
+		  padding: 5px;}
+
+.flex-container {border-radius:25px;
+				 max-width: 800px;
+				 min-height: 20px;
+				 background-image: url(background2.jpg);
+				 margin: auto;
+				 overflow:auto;
+				 background-size: cover;
+				 position: relative;}
+
+.recbox {width: 220px;
+		 background-color: #f00e19;
+		 float: left;
+		 margin:10px;
+		 padding:5px;
+		 border-radius: 25px;}
+
+.chef {border-radius:25px;
+	   width: 200px;
+	   height: 120px;
+	   }
+
+.fix {margin: 10px 5px 10px 10px;
+	  height: 120px;
+	  width: 200px;}
+
+.btn {background: #f00e19;
+	  background-image: -webkit-linear-gradient(top, #f00e19, #7308d6);
+	  background-image: -moz-linear-gradient(top, #f00e19, #7308d6);
+	  background-image: -ms-linear-gradient(top, #f00e19, #7308d6);
+	  background-image: -o-linear-gradient(top, #f00e19, #7308d6);
+	  background-image: linear-gradient(to bottom, #f00e19, #7308d6);
+	  -webkit-border-radius: 28;
+	  -moz-border-radius: 28;
+	  border-radius: 28px;
+	  font-family: Arial;
+	  color: #ffffff;
+	  font-size: 20px;
+	  padding: 10px 20px 10px 20px;
+	  text-decoration: none;}
+
+.btn:hover {background: #3c46fc;
+			background-image: -webkit-linear-gradient(top, #3c46fc, #c70c0c);
+			background-image: -moz-linear-gradient(top, #3c46fc, #c70c0c);
+			background-image: -ms-linear-gradient(top, #3c46fc, #c70c0c);
+			background-image: -o-linear-gradient(top, #3c46fc, #c70c0c);
+			background-image: linear-gradient(to bottom, #3c46fc, #c70c0c);
+			text-decoration: none;}
+
+.other{background: white;
+	  float: left;
+	  width: 250px;
+	  min-height: 20px;
+	  padding: 5px;
+	  border-radius: 25px;
+	  border-width: 5px;
+	  border-style: outset;}
+/*
+***********************In case of emergency BREAK GLASS :)***************
+#leftbox {background-color: white;
+		  position: relative;
+		  left:5%;
+		  height: 250px;
+		  width: 500px;
+		  padding:10px;
+		  border-width:5px;
+		  border-style: outset;
+		  overflow: scroll;}
+
+/*#leftboxresize {background-color: white;
+				position: relative;
+				margin: auto;
+
+				min-height: 250px;
+				width: 500px;
+				padding: 10px;
+				border-width:5px;
+				border-style: outset;}
+
+body {background-image: url(trans.png), url(background1.jpg);
+	  background-repeat: no-repeat, no-repeat;
+	  background-size: 500px 100px, cover;
+	  background-attachment: fixed, fixed;
+	  background-position: top center, center;}
+
+*/
+
+.welcome {font-family: Arial;
+		  font-size: 1.2em;
+		  padding: 5px;}
+.spanit {font-style: italic;
+		 font-weight: bold;}
+.sapnsmall {font-size: 0.6em;
+			line-height: 0.6;
+			color: blue;}
+h1 {font-family: Serif ;
+	margin: 15px;
+	font-size: 3em;}
+.intro {font-size: 2em;
+		 margin: 20px;
+		 font-style: italic;
+		 font-weight: bold;}
+ul {margin: 30px;
+	font-size: 1.5em ; }
+.expl {margin: 40px;
+	   font-size: 1.2em;
+	   font-family: Arial;}
+h2 {font-size: 3em;
+	margin: 20px;}
+.name{font-family: Arial;
+	  font-size: 0.8em;
+	  font-style: italic;}
+.comments {font-family: serif;
+		   padding:5px;
+		   font-size:1.0em;}
+.user {font-family: serif;
+		font-size:1.0em;
+		color: blue;
+		text-decoration: underline;}
